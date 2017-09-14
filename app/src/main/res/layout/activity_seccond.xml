@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.data_transport.SeccondActivity">
+   <Button
+       android:id="@+id/get_data"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="获得数据"
+       />
+   <Button
+       android:id="@+id/send_data"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="传送数据"
+       />
+</LinearLayout>
